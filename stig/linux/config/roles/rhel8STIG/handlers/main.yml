@@ -5,7 +5,7 @@
 - name: ssh_restart
   service:
     name: sshd
-    state: restarted
+    state: reloaded
 - name: do_reboot
   reboot:
     pre_reboot_delay: 60

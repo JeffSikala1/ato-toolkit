@@ -42,7 +42,7 @@ rhel8STIG_stigrule_230241_Manage: True
 rhel8STIG_stigrule_230241_policycoreutils_State: installed
 # R-230244 RHEL-08-010200
 rhel8STIG_stigrule_230244_Manage: True
-rhel8STIG_stigrule_230244_ClientAliveCountMax_Line: ClientAliveCountMax 1
+rhel8STIG_stigrule_230244_ClientAliveCountMax_Line: ClientAliveCountMax 5
 # R-230252 RHEL-08-010291
 rhel8STIG_stigrule_230252_Manage: True
 rhel8STIG_stigrule_230252__etc_sysconfig_sshd_Line: '# CRYPTO_POLICY='
@@ -95,13 +95,13 @@ rhel8STIG_stigrule_230288_Manage: True
 rhel8STIG_stigrule_230288_StrictModes_Line: StrictModes yes
 # R-230290 RHEL-08-010520
 rhel8STIG_stigrule_230290_Manage: True
-rhel8STIG_stigrule_230290_IgnoreUserKnownHosts_Line: IgnoreUserKnownHosts yes
+rhel8STIG_stigrule_230290_IgnoreUserKnownHosts_Line: IgnoreUserKnownHosts no
 # R-230291 RHEL-08-010521
 rhel8STIG_stigrule_230291_Manage: True
 rhel8STIG_stigrule_230291_KerberosAuthentication_Line: KerberosAuthentication no
 # R-230296 RHEL-08-010550
 rhel8STIG_stigrule_230296_Manage: True
-rhel8STIG_stigrule_230296_PermitRootLogin_Line: PermitRootLogin no
+rhel8STIG_stigrule_230296_PermitRootLogin_Line: PermitRootLogin yes
 # R-230298 RHEL-08-010561
 rhel8STIG_stigrule_230298_Manage: True
 rhel8STIG_stigrule_230298_rsyslog_enable_Enabled: yes
@@ -519,7 +519,7 @@ rhel8STIG_stigrule_244523_Manage: True
 rhel8STIG_stigrule_244523__usr_lib_systemd_system_emergency_service_Value: '-/usr/lib/systemd/systemd-sulogin-shell emergency'
 # R-244525 RHEL-08-010201
 rhel8STIG_stigrule_244525_Manage: True
-rhel8STIG_stigrule_244525_ClientAliveInterval_Line: ClientAliveInterval 600
+rhel8STIG_stigrule_244525_ClientAliveInterval_Line: ClientAliveInterval 180
 # R-244527 RHEL-08-010472
 rhel8STIG_stigrule_244527_Manage: True
 rhel8STIG_stigrule_244527_rng_tools_State: installed

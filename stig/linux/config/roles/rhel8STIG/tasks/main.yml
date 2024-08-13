@@ -1798,3 +1798,12 @@
     create: yes
   when:
     - rhel8STIG_stigrule_244554_Manage
+# Allow stigadmi user
+- name: Allow specific users for SSH
+  lineinfile:
+    path: /etc/ssh/sshd_config
+    regexp: '^AllowUsers'
+    line: "AllowUsers stigadmin"
+  notify: ssh_restart
+  when:
+    - "'openssh-server' in packages"
