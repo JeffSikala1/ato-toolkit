@@ -1,8 +1,27 @@
+# Log file
+LOG_FILE="/var/log/rhel8STIG.log"
+exec 1>>${LOG_FILE} 2>&1
+
 # only run once during deployment
 if [ -f ./azAutomationComplete ]; then
     echo "STIG Automation completed, exiting..."
     exit 0
 fi
+
+# Check if pip3 is already installed
+if ! command -v pip3 &> /dev/null; then
+    echo "Installing pip3 from get-pip.py binary..."
+    python3 get-pip.py --no-index --find-links ./ --trusted-host localhost
+    echo "pip3 installed"
+fi
+
+# Install Ansible Core with pip3
+echo "Installing Ansible Core for STIG automation..."
+pip3 install --no-index --find-links ./ ansible-core --user
+echo "Ansible Core installed"
+
+# If Ansible is installed under the user's local bin, ensure the path is correct
+export PATH=$PATH:$HOME/.local/bin
 
 ###############################################################################
 echo "Setting script variables"
