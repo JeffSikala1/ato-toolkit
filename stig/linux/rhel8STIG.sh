@@ -17,8 +17,8 @@ if [ -f ./azAutomationComplete ]; then
 fi
 
 # Set PATH and PYTHONPATH to use the locally installed Ansible
-export PATH=/mnt/home/stigadmin/ato-toolkit/stig/linux/bin:$PATH
-export PYTHONPATH=/mnt/home/stigadmin/ato-toolkit/stig/linux/lib/python3.6/site-packages:$PYTHONPATH
+export PATH=/home/stigadmin/ato-toolkit/stig/linux/bin:$PATH
+export PYTHONPATH=/home/stigadmin/ato-toolkit/stig/linux/lib/python3.6/site-packages
 
 # Check if pip3 is already installed
 if ! command -v pip3 &> /dev/null; then
@@ -29,7 +29,7 @@ fi
 
 # Install Ansible Core using the local wheels
 echo "Installing Ansible Core for STIG automation..."
-pip3 install --no-index --find-links ./ ansible-core==2.11.12 ansible==4.10.0 --prefix=/mnt/home/stigadmin/ato-toolkit/stig/linux/
+pip3 install --no-index --find-links ./ ansible-core==2.11.12 ansible==4.10.0 --prefix=/home/stigadmin/ato-toolkit/stig/linux/
 echo "Ansible Core installed"
 
 ###############################################################################
@@ -198,7 +198,7 @@ echo 'fi' | sudo tee -a /etc/profile.d/230348-customshell.sh
 ###############################################################################
 echo "Automating Rule Id V-230367"
 ###############################################################################
-sudo chage -M 60 $1
+sudo chage -M 60 "$1"
 sudo chage -M 60 root
 # END V-230367
 
@@ -343,7 +343,7 @@ echo 'Defaults !runaspw' | sudo tee -a /etc/sudoers.d/237642
 ###############################################################################
 echo "Invoking ansible-playbook to automate STIG rules"
 ###############################################################################
-/root/.local/bin/ansible-playbook -v -b -i /dev/null ./config/site.yml
+/home/stigadmin/ato-toolkit/stig/linux/bin/ansible-playbook -v -b -i /dev/null ./config/site.yml
 
 ###############################################################################
 # "Automating Rule Id V-230483" 8.0 auditd.conf does not recogn. percent sign
