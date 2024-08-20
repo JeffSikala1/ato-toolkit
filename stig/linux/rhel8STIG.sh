@@ -374,6 +374,3 @@ echo "Restarting system to apply STIG settings..."
 ###############################################################################
 sudo touch ./azAutomationComplete
 sudo shutdown -r +1 2>&1
-
-git config --global user.name "Jeff Sikala"
-git config --global user.email "sikala9@hotmail.com"
