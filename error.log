@@ -1,0 +1,117 @@
+AzureAD+JeffSikala@HIIUCE5CD225GPFQ MINGW64 ~/Documents/DDM/new_policy/ato-toolkit (master)
+$ git pull
+remote: Enumerating objects: 38802, done.
+remote: Counting objects: 100% (20/20), done.
+remote: Compressing objects: 100% (8/8), done.
+error: RPC failed; curl 56 OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 0
+remote: Total 38802 (delta 13), reused 19 (delta 12), pack-reused 38782 (from 1)
+Receiving objects: 100% (38802/38802), 110.34 MiB | 23.77 MiB/s, done.
+Resolving deltas: 100% (10395/10395), completed with 3 local objects.
+From https://github.com/jeffPOG/ato-toolkit
+   4243665d..5a6b6826  master     -> origin/master
+Updating 4243665d..5a6b6826
+error: unable to create file stig/linux/lib/python3.6/site-packages/ansible_collections/community/aws/tests/unit/plugins/modules/placebo_recordings/aws_direct_connect_connection/associations_are_not_updated/directconnect.DescribeConnections_1.json: Filename too long 
+error: unable to create file stig/linux/lib/python3.6/site-packages/ansible_collections/community/aws/tests/unit/plugins/modules/placebo_recordings/aws_direct_connect_connection/changed_properties/directconnect.DescribeConnections_1.json: Filename too long
+error: unable to create file stig/linux/lib/python3.6/site-packages/ansible_collections/community/aws/tests/unit/plugins/modules/placebo_recordings/aws_direct_connect_connection/connection_does_not_exist/directconnect.DescribeConnections_1.json: Filename too long    
+error: unable to create file stig/linux/lib/python3.6/site-packages/ansible_collections/community/aws/tests/unit/plugins/modules/placebo_recordings/aws_direct_connect_connection/connection_exists_by_id/directconnect.DescribeConnections_1.json: Filename too long      
+error: unable to create file stig/linux/lib/python3.6/site-packages/ansible_collections/community/aws/tests/unit/plugins/modules/placebo_recordings/aws_direct_connect_connection/connection_exists_by_name/directconnect.DescribeConnections_1.json: Filename too long    
+error: unable to create file stig/linux/lib/python3.6/site-packages/ansible_collections/community/aws/tests/unit/plugins/modules/placebo_recordings/aws_direct_connect_connection/connection_status/directconnect.DescribeConnections_1.json: Filename too long
+error: unable to create file stig/linux/lib/python3.6/site-packages/ansible_collections/community/aws/tests/unit/plugins/modules/placebo_recordings/aws_direct_connect_connection/create_and_delete/directconnect.CreateConnection_1.json: Filename too long
+error: unable to create file stig/linux/lib/python3.6/site-packages/ansible_collections/community/aws/tests/unit/plugins/modules/placebo_recordings/aws_direct_connect_connection/create_and_delete/directconnect.DeleteConnection_1.json: Filename too long
+warning: unable to access 'stig/linux/lib/python3.6/site-packages/ansible_collections/community/aws/tests/unit/plugins/modules/placebo_recordings/aws_direct_connect_link_aggregation_group/delete_lag_with_connections/.gitattributes': Filename too long
+error: unable to create file stig/linux/lib/python3.6/site-packages/ansible_collections/community/aws/tests/unit/plugins/modules/placebo_recordings/aws_direct_connect_link_aggregation_group/delete_lag_with_connections/directconnect.DeleteConnection_1.json: Filename too long
+error: unable to create file stig/linux/lib/python3.6/site-packages/ansible_collections/community/aws/tests/unit/plugins/modules/placebo_recordings/aws_direct_connect_link_aggregation_group/delete_lag_with_connections/directconnect.DeleteLag_1.json: Filename too long
+error: unable to create file stig/linux/lib/python3.6/site-packages/ansible_collections/community/aws/tests/unit/plugins/modules/placebo_recordings/aws_direct_connect_link_aggregation_group/delete_lag_with_connections/directconnect.DescribeLags_1.json: Filename too long
+error: unable to create file stig/linux/lib/python3.6/site-packages/ansible_collections/community/aws/tests/unit/plugins/modules/placebo_recordings/aws_direct_connect_link_aggregation_group/delete_lag_with_connections/directconnect.DescribeLags_2.json: Filename too long
+error: unable to create file stig/linux/lib/python3.6/site-packages/ansible_collections/community/aws/tests/unit/plugins/modules/placebo_recordings/aws_direct_connectation_group/delete_lag_with_connections/directconnect.DisassociateConnectionFromLag_1.json: Filename too long
+error: unable to create file stig/linux/lib/python3.6/site-packages/ansible_collections/community/aws/tests/unit/plugins/modules/placebo_recordings/aws_direct_connect_link_aggregation_group/delete_lag_with_connections/directconnect.UpdateLag_1.json: Filename too longfatal: cannot create directory at 'stig/linux/lib/python3.6/site-packages/ansible_collections/community/aws/tests/unit/plugins/modules/placebo_recordings/aws_direct_connect_link_aggregation_group/delete_lag_with_connections_without_force_delete': Filename too long
+
+AzureAD+JeffSikala@HIIUCE5CD225GPFQ MINGW64 ~/Documents/DDM/new_policy/ato-toolkit (master)
+$ git pull
+Updating 4243665d..5a6b6826
+error: cannot stat 'stig/linux/lib/python3.6/site-packages/ansible_collections/community/aws/tests/unit/plugins/modules/placebo_recordings/aws_direct_connect_connection/associations_are_not_updated/directconnect.DescribeConnections_1.json': Filename too long
+error: cannot stat 'stig/linux/lib/python3.6/site-packages/ansible_collections/community/aws/tests/unit/plugins/modules/placebo_recordings/aws_direct_connect_connection/changed_properties/directconnect.DescribeConnections_1.json': Filename too long
+error: cannot stat 'stig/linux/lib/python3.6/site-packages/ansible_collections/community/aws/tests/unit/plugins/modules/placebo_recordings/aws_direct_connect_connection/connection_does_not_exist/directconnect.DescribeConnections_1.json': Filename too long
+error: cannot stat 'stig/linux/lib/python3.6/site-packages/ansible_collections/community/aws/tests/unit/plugins/modules/placebo_recordings/aws_direct_connect_connection/connection_exists_by_id/directconnect.DescribeConnections_1.json': Filename too long
+error: cannot stat 'stig/linux/lib/python3.6/site-packages/ansible_collections/community/aws/tests/unit/plugins/modules/placebo_recordings/aws_direct_connect_connection/connection_exists_by_name/directconnect.DescribeConnections_1.json': Filename too long
+error: cannot stat 'stig/linux/lib/python3.6/site-packages/ansible_collections/community/aws/tests/unit/plugins/modules/placebo_recordings/aws_direct_connect_connection/connection_status/directconnect.DescribeConnections_1.json': Filename too long
+error: cannot stat 'stig/linux/lib/python3.6/site-packages/ansible_collections/community/aws/tests/unit/plugins/modules/placebo_recordings/aws_direct_connect_connection/create_and_delete/directconnect.CreateConnection_1.json': Filename too long
+error: cannot stat 'stig/linux/lib/python3.6/site-packages/ansible_collections/community/aws/tests/unit/plugins/modules/placebo_recordings/aws_direct_connect_connection/create_and_delete/directconnect.DeleteConnection_1.json': Filename too long
+error: cannot stat 'stig/linux/lib/python3.6/site-packages/ansible_collections/community/aws/tests/unit/plugins/modules/placebo_recordings/aws_direct_connect_link_aggregation_group/delete_lag_with_connections/directconnect.DeleteConnection_1.json': Filename too long
+error: cannot stat 'stig/linux/lib/python3.6/site-packages/ansible_collections/community/aws/tests/unit/plugins/modules/placebo_recordings/aws_direct_connect_link_aggregation_group/delete_lag_with_connections/directconnect.DeleteLag_1.json': Filename too long
+error: cannot stat 'stig/linux/lib/python3.6/site-packages/ansible_collections/community/aws/tests/unit/plugins/modules/placebo_recordings/aws_direct_connect_link_aggregation_group/delete_lag_with_connections/directconnect.DescribeLags_1.json': Filename too long
+error: cannot stat 'stig/linux/lib/python3.6/site-packages/ansible_collections/community/aws/tests/unit/plugins/modules/placebo_recordings/aws_direct_connect_link_aggregation_group/delete_lag_with_connections/directconnect.DescribeLags_2.json': Filename too long
+error: cannot stat 'stig/linux/lib/python3.6/site-packages/ansible_collections/community/aws/tests/unit/plugins/modules/placebo_recordings/aws_direct_connect_link_aggregation_group/delete_lag_with_connections/directconnect.DescribeLags_3.json': Filename too long
+error: cannot stat 'stig/linux/lib/python3.6/site-packages/ansible_collections/community/aws/tests/unit/plugins/modules/placebo_recordings/aws_direct_connect_link_aggregation_group/delete_lag_with_connections/directconnect.DescribeVirtualInterfaces_1.json': Filename too long
+error: cannot stat 'stig/linux/lib/python3.6/site-packages/ansible_collections/community/aws/tests/unit/plugins/modules/placebo_recordings/aws_direct_connect_link_aggregation_group/delete_lag_with_connections/directconnect.DisassociateConnectionFromLag_1.json': Filename too long
+error: cannot stat 'stig/linux/lib/python3.6/site-packages/ansible_collections/community/aws/tests/unit/plugins/modules/placebo_recordings/aws_direct_connect_link_aggregation_group/delete_lag_with_connections/directconnect.UpdateLag_1.json': Filename too long
+error: cannot stat 'stig/linux/lib/python3.6/site-packages/ansible_collections/community/aws/tests/unit/plugins/modules/placebo_recordings/aws_direct_connect_link_aggregation_group/delete_lag_with_connections_without_force_delete': Filename too long
+error: cannot stat 'stig/linux/lib/python3.6/site-packages/ansible_collections/community/aws/tests/unit/plugins/modules/placebo_recordings/aws_direct_connect_link_aggregation_group/delete_lag_with_connections_without_force_delete': Filename too long
+error: cannot stat 'stig/linux/lib/python3.6/site-packages/ansible_collections/community/aws/tests/unit/plugins/modules/placebo_recordings/aws_direct_connect_link_aggregation_group/delete_lag_with_connections_without_force_delete': Filename too long
+error: cannot stat 'stig/linux/lib/python3.6/site-packages/ansible_collections/community/aws/tests/unit/plugins/modules/placebo_recordings/aws_direct_connect_link_aggregation_group/delete_lag_with_connections_without_force_delete': Filename too long
+error: The following untracked working tree files would be overwritten by merge:
+        stig/linux/.gitattributes
+        stig/linux/Jinja2-2.11.3-py2.py3-none-any.whl
+        stig/linux/Jinja2-3.0.3-py3-none-any.whl
+        stig/linux/MarkupSafe-1.1.1-cp36-cp36m-manylinux1_x86_64.whl
+        stig/linux/MarkupSafe-2.0.1-cp36-cp36m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+        stig/linux/PyYAML-5.4.1-cp36-cp36m-manylinux1_x86_64.whl
+        stig/linux/PyYAML-6.0.1-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+        stig/linux/ansible-4.10.0-py3-none-any.whl
+        stig/linux/ansible_core-2.11.12-py3-none-any.whl
+        stig/linux/bin/ansible
+        stig/linux/bin/ansible-config
+        stig/linux/bin/ansible-connection
+        stig/linux/bin/ansible-console
+        stig/linux/bin/ansible-doc
+        stig/linux/bin/ansible-galaxy
+        stig/linux/bin/ansible-inventory
+        stig/linux/bin/ansible-playbook
+        stig/linux/bin/ansible-pull
+        stig/linux/bin/ansible-test
+        stig/linux/bin/ansible-vault
+        stig/linux/cffi-1.14.6-cp36-cp36m-manylinux1_x86_64.whl
+        stig/linux/cffi-1.15.1-cp36-cp36m-manylinux_2_5_x86_64.manylinux1_x86_64.whl
+        stig/linux/cryptography-3.3.2-cp36-abi3-manylinux1_x86_64.whl
+        stig/linux/cryptography-40.0.2-cp36-abi3-manylinux_2_28_x86_64.whl
+        stig/linux/lib/python3.6/site-packages/ansible-4.10.0.dist-info/COPYING
+        stig/linux/lib/python3.6/site-packages/ansible-4.10.0.dist-info/INSTALLER
+        stig/linux/lib/python3.6/site-packages/ansible-4.10.0.dist-info/METADATA
+        stig/linux/lib/python3.6/site-packages/ansible-4.10.0.dist-info/RECORD
+        stig/linux/lib/python3.6/site-packages/ansible-4.10.0.dist-info/REQUESTED
+        stig/linux/lib/python3.6/site-packages/ansible-4.10.0.dist-info/WHEEL
+        stig/linux/lib/python3.6/site-packages/ansible-4.10.0.dist-info/top_level.txt
+        stig/linux/lib/python3.6/site-packages/ansible/__init__.py
+        stig/linux/lib/python3.6/site-packages/ansible/__pycache__/__init__.cpython-36.pyc
+        stig/linux/lib/python3.6/site-packages/ansible/__pycache__/constants.cpython-36.pyc
+        stig/linux/lib/python3.6/site-packages/ansible/__pycache__/context.cpython-36.pyc
+        stig/linux/lib/python3.6/site-packages/ansible/__pycache__/release.cpython-36.pyc
+        stig/linux/lib/python3.6/site-packages/ansible/_vendor/__init__.py
+        stig/linux/lib/python3.6/site-packages/ansible/_vendor/__pycache__/__init__.cpython-36.pyc
+        stig/linux/lib/python3.6/site-packages/ansible/cli/__init__.py
+        stig/linux/lib/python3.6/site-packages/ansible/cli/__pycache__/__init__.cpython-36.pyc
+        stig/linux/lib/python3.6/site-packages/ansible/cli/__pycache__/adhoc.cpython-36.pyc
+        stig/linux/lib/python3.6/site-packages/ansible/cli/__pycache__/config.cpython-36.pyc
+        stig/linux/lib/python3.6/site-packages/ansible/cli/__pycache__/console.cpython-36.pyc
+        stig/linux/lib/python3.6/site-packages/ansible/cli/__pycache__/doc.cpython-36.pyc
+        stig/linux/lib/python3.6/site-packages/ansible/cli/__pycache__/galaxy.cpython-36.pyc
+        stig/linux/lib/python3.6/site-packages/ansible/cli/__pycache__/inventory.cpython-36.pyc
+        stig/linux/lib/python3.6/site-packages/ansible/cli/__pycache__/playbook.cpython-36.pyc
+        stig/linux/lib/python3.6/site-packages/ansible/cli/__pycache__/pull.cpython-36.pyc
+        stig/linux/lib/python3.6/site-packages/ansible/cli/__pycache__/vault.cpython-36.pyc
+        stig/linux/lib/python3.6/site-packages/ansible/cli/adhoc.py
+        stig/linux/lib/python3.6/site-packages/ansible/cli/arguments/__init__.py
+        stig/linux/lib/python3.6/site-packages/ansible/cli/arguments/__pycache__/__init__.cpython-36.pyc
+        stig/linux/lib/python3.6/site-packages/ansible/cli/arguments/__pycache__/option_helpers.cpython-36.pyc
+        stig/linux/lib/python3.6/site-packages/ansible/cli/arguments/option_helpers.py
+        stig/linux/lib/python3.6/site-packages/ansible/cli/config.py
+        stig/linux/lib/python3.6/site-packages/ansible/cli/console.py
+        stig/linux/lib/python3.6/site-packages/ansible/cli/doc.py
+        stig/linux/lib/python3.6/site-packages/ansible/cli/galaxy.py
+        stig/linux/lib/python3.6/site-packages/ansible/cli/inventory.py
+        stig/linux/lib/python3.6/site-packages/ansible/cli/playbook.py
+        stig/linux/lib/python3.6/site-packages/ansible/cli/pull.py
+        stig/linux/lib/python
+Aborting
+
+AzureAD+JeffSikala@
